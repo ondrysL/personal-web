@@ -1,0 +1,66 @@
+.skills__container{
+    padding: 1rem 2rem;
+}
+
+.skills__title{
+    color: white;
+}
+
+.skills__title span{
+    color: var(--main-color);
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.icon3{
+    width: fit-content;
+    padding: 1.5rem;
+    color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: 5rem;
+}
+
+
+.react3{
+    color: #2596be;
+}
+
+.db3{
+    color: #346494;
+}
+
+.html3{
+    color: #e44c24;
+}
+
+.css3{
+    color: #244ce4;
+}
+
+.icon__arrow{
+    transform: scale(1.5);
+    color: var(--main-color);
+}
+
+.active__skill{
+
+}
+
+.active__skill__title{
+    color: white;
+}
+
+.active__skill__text{
+    color: white;
+}

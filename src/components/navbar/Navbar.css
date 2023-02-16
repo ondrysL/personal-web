@@ -1,0 +1,27 @@
+.navbar{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__logo{
+    margin: 0rem;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.logo__span{
+    color: var(--main-color);
+}
+
+.navbar__menu{
+    display: flex;
+    column-gap: 3.6rem;
+}
+
+.home__icon,.info__icon,.port__icon{
+    transform: scale(1.5);
+    color: var(--main-color);
+}

@@ -1,0 +1,17 @@
+<div className="icon__container">
+                <div className='icon__pad'>
+                  <FaReact className='react icon'/>
+                </div>
+                <div className="icon__pad">
+                  <FaJava className='java icon'></FaJava>
+                </div>
+                <div className="icon__pad">
+                  <FaHtml5 className='html icon'></FaHtml5>
+                </div>
+                <div className="icon__pad">
+                  <FaCss3 className='css icon'></FaCss3>
+                </div>
+                <div className="icon__pad">
+                  <FaDatabase className='db icon'></FaDatabase>
+                </div>
+              </div>

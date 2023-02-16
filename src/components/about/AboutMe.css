@@ -1,0 +1,142 @@
+.about{
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+
+.about__title{
+    color: white;
+    align-self: flex-start;
+}
+
+.about__title span{
+    color: var(--main-color);
+}
+
+.about__img{
+    width: 80vw;
+    max-height: 30vh
+}
+
+.about__subtitle{
+    margin-bottom: 0rem;
+    color: white;
+}
+
+.about__text{
+    color: white;
+}
+
+.visit__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+
+}
+
+.visit__button{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    cursor: pointer;
+}
+
+.mail__icon{
+    font-size: 1.2rem;
+    color: var(--main-color);
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.lin__icon{
+    font-size: 1.2rem;
+    color: blue;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.git2__icon{
+    font-size: 1.2rem;
+    color: orange;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.visit__url{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.about__button{
+    cursor: pointer;
+    align-self: center;
+    border: none;
+    background: none;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width:769px) {
+    .about__title h1{
+        font-size: 2.5rem;
+    }
+    .about__subtitle{
+        font-size: 1.8rem;
+    }
+    .about__text{
+        max-width: 600px;
+    }
+    .about__img{
+        width: 600px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .about__title h1{
+        font-size: 3.5rem;
+    }
+    .about__subtitle{
+        font-size: 2.3rem;
+    }
+    .about__text{
+        max-width: 600px;
+    }
+    .visit__container{
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 2rem;
+        width: 600px;
+    }
+    .about__button{
+        margin-top: 2rem;
+    }
+    .about__img{
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .about__text{
+        width: 800px;
+    }
+    .visit__container{
+        width: 700px;
+    }
+    .about__img{
+        width: 600px;
+    }
+}

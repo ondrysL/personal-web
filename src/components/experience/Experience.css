@@ -1,0 +1,103 @@
+.work__container{
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    height: 100vh;
+    margin-top: 3rem;
+}
+
+.work__title{
+    color: white;
+}
+
+.work__title span{
+    color: var(--main-color);
+}
+
+.work__icons{
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+}
+
+.yt2__icon{
+    border-radius: 15px;
+    padding: 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: 3rem;
+    color: white;
+    transition: all .8s;
+}
+
+.l2__icon{
+    border-radius: 15px;
+    padding: 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: 3rem;
+    color: white;
+    transition: all .8s;
+}
+
+.m2__icon{
+    border-radius: 15px;
+    padding: 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: 3rem;
+    color: white;
+    transition: all .8s;
+}
+
+.active{
+    background-color: var(--main-color);
+}
+
+.works{
+    margin-top: 2.5rem;
+}
+
+.about__button{
+}
+
+@keyframes test{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .work__test{
+        align-self: flex-start;
+    }
+    .work__container{
+        align-items: center;
+    }
+    .work__title{
+        font-size: 2.5rem;
+    }
+    .work__icons{
+        justify-content: space-between;
+        width: 600px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .work__title{
+        font-size: 3.5rem;
+    }
+    .work__container{
+        row-gap: 0rem;
+    }
+    .works{
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (min-width:1400px){
+    .work__icons{
+        width: 700px;
+    }
+}

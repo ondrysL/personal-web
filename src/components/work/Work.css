@@ -1,0 +1,48 @@
+.one__work{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0rem;
+}
+
+.one__work__title{
+    margin-bottom: 0rem;
+    color: white;
+}
+
+.one__work__date{
+    margin: 0rem;
+    color: white;
+}
+
+.one__work__text{
+    color: white;
+}
+
+.one__work__img{
+    width: 70vw;
+    align-self: center;
+}
+
+@media screen and (min-width:769px) {
+    .one__work__text{
+        width: 600px;
+    }
+    .one__work__img{
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .one__work__title{
+        font-size: 2.8rem;
+    }
+    .one__work{
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .one__work{
+        width: 700px;
+    }
+}
